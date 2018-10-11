@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ButtonView按钮属性-->
+    <declare-styleable name="ButtonView">
+        <attr name="bv_icon" format="reference"/>
+        <attr name="bv_text" format="string"/>
+        <attr name="bv_text_size" format="dimension"/>
+        <attr name="bv_text_color" format="color"/>
+        <attr name="bv_backColor" format="color"/>
+        <attr name="bv_radius" format="dimension"/>
+        <attr name="bv_topLeftRadius" format="dimension"/>
+        <attr name="bv_topRightRadius" format="dimension"/>
+        <attr name="bv_bottomLeftRadius" format="dimension"/>
+        <attr name="bv_bottomRightRadius" format="dimension"/>
+        <attr name="bv_enabled" format="boolean"/>
+    </declare-styleable>
+
+</resources>

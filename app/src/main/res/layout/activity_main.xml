@@ -1,19 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+    <com.richard.buttonview.ButtonView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="5dp"
+        android:onClick="clickButton"
+        app:bv_backColor="#af25ad"
+        app:bv_radius="4dp"
+        app:bv_text="登录"
+        app:bv_text_color="#ffffff"/>
 
-</android.support.constraint.ConstraintLayout>
+    <com.richard.buttonview.ButtonView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="5dp"
+        android:onClick="clickButton"
+        app:bv_backColor="@color/colorPrimary"
+        app:bv_enabled="true"
+        app:bv_radius="4dp"
+        app:bv_text="立即注册"
+        app:bv_text_color="#ffffff"/>
+
+    <com.richard.buttonview.ButtonView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_margin="5dp"
+        android:onClick="clickButton"
+        app:bv_backColor="#429c63"
+        app:bv_bottomLeftRadius="3dp"
+        app:bv_bottomRightRadius="3dp"
+        app:bv_enabled="true"
+        app:bv_icon="@mipmap/icon_test"
+        app:bv_text="  安全下载"
+        app:bv_text_color="#ffffff"
+        app:bv_topLeftRadius="20dp"
+        app:bv_topRightRadius="20dp"/>
+
+    <com.richard.buttonview.ButtonView
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:layout_margin="5dp"
+        android:onClick="clickButton"
+        app:bv_backColor="@color/colorPrimary"
+        app:bv_enabled="true"
+        app:bv_icon="@mipmap/icon_test"
+        app:bv_radius="40dp"
+        app:bv_text="  安全登录"
+        app:bv_text_color="#ffffff"
+        app:bv_text_size="14sp"/>
+
+    <com.richard.buttonview.ButtonView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:onClick="clickButton"
+        app:bv_backColor="@color/colorPrimary"
+        app:bv_enabled="false"
+        app:bv_radius="40dp"
+        app:bv_text="  登录"
+        app:bv_text_color="#ffffff"
+        app:bv_text_size="14sp"/>
+
+    <com.richard.buttonview.ButtonView
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:onClick="clickButton"
+        app:bv_backColor="@color/colorPrimary"
+        app:bv_bottomRightRadius="30dp"
+        app:bv_enabled="true"
+        app:bv_text="登录"
+        app:bv_text_color="#ffffff"
+        app:bv_text_size="14sp"
+        app:bv_topLeftRadius="30dp"/>
+
+    <com.richard.buttonview.ButtonView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:onClick="clickButton"
+        app:bv_backColor="#f19f13"
+        app:bv_bottomRightRadius="30dp"
+        app:bv_enabled="true"
+        app:bv_text="登录"
+        app:bv_text_color="#ffffff"
+        app:bv_text_size="14sp"
+        app:bv_topLeftRadius="30dp"/>
+
+    <com.richard.buttonview.ButtonView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:onClick="clickButton"
+        app:bv_backColor="#212121"
+        app:bv_bottomLeftRadius="10dp"
+        app:bv_bottomRightRadius="30dp"
+        app:bv_enabled="true"
+        app:bv_text="忘记密码"
+        app:bv_text_color="#ffffff"
+        app:bv_text_size="14sp"
+        app:bv_topLeftRadius="10dp"
+        app:bv_topRightRadius="30dp"/>
+
+    <com.richard.buttonview.ButtonView
+        android:id="@+id/bv_confirm_pay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:onClick="clickButton"
+        app:bv_backColor="#54a660"
+        app:bv_enabled="true"
+        app:bv_radius="5dp"
+        app:bv_text="正在支付..."
+        app:bv_text_color="#ffffff"
+        app:bv_text_size="14sp"/>
+
+    <com.richard.buttonview.ButtonView
+        android:id="@+id/bv_confirm_upload"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        app:bv_backColor="#54a660"
+        app:bv_enabled="true"
+        app:bv_radius="5dp"
+        app:bv_text="立即上传"
+        app:bv_text_color="#ffffff"
+        app:bv_text_size="14sp"/>
+
+
+</LinearLayout>

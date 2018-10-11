@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_icon_and_loading_size">20dp</dimen>
+    <dimen name="textSize_15">15sp</dimen>
+
+</resources>
