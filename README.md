@@ -19,7 +19,7 @@
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.Richard-person:ButtonView-master:v1.0.2'
+	        implementation 'com.github.Richard-person:ButtonView-master:v1.0.3'
 	}
 
 2.XML<br>
