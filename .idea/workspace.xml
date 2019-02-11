@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d6f2f4c-405a-44d6-8a6a-d527008ca10e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ButtonView/ButtonView.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ButtonView/ButtonView.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -3165,11 +3166,6 @@
               <item name="ButtonView-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="ButtonView-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="ButtonView-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ButtonView-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="screenshot" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -3183,6 +3179,9 @@
     <property name="sync.plugin.last.upgrade.timestamp" value="1549869854659" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/screenshot" />
     </key>
@@ -3398,6 +3397,11 @@
         <state relative-caret-position="238">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
